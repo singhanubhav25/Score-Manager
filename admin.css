@@ -1,0 +1,261 @@
+#headersection{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#heading{
+    font-size: 4.5rem;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#subheading{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .overmark{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0;
+} */
+
+.overrate{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0;
+    padding: 0;
+}
+
+#controlsection{
+    margin-left: 14rem;
+    margin-right: 14rem;
+}
+
+.over{
+    margin:1rem;
+    font-size: 1.5rem;
+}
+
+.box{
+    display: flex;
+}
+
+.border{
+    border-style: solid;
+    margin: 1rem;
+    margin-right: 10rem;
+}
+.ball{
+    border-style: solid;
+    border-color: black;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 50px;
+}
+
+.balln{
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.ballno{
+    margin-top: 0;
+    margin: auto;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(221, 30, 30);
+}
+
+.indicate{
+    display: flex;
+    flex-direction: row;
+}
+.run{
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.arrow{
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#shadedbox{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    border-style: dashed;
+    border-color: red;
+    padding: 10px;
+    margin-left: 1rem;
+    margin-right: 40rem;
+}
+
+#btn0{
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 50px;
+}
+
+#btn1{
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(181, 181, 181);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 50px;
+}
+
+#btn2{
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(181, 181, 181);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 50px;
+}
+
+#btn3{
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(181, 181, 181);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 50px;
+}
+
+#btn4{
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(8, 181, 118);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 50px;
+}
+
+#btn6{
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(18, 132, 90);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+
+#btnout{
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(207, 2, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+
+#overlisting{
+    margin-top: 3rem;
+    margin-left: 14rem;
+    margin-right: 14rem;
+}
+
+.list{
+    margin:1rem;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+}
+
+.overs, .runName{
+    margin-left: 15px;
+    margin-right: 20px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#show{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.overno{
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding: 8px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.history{
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    margin-left: 35px;
+    margin-right: 10px;
+}
+
+.ballh{
+    margin-left: 40px;
+    margin-right: 40px;
+    border-style: solid;
+    border-color: black;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.ballb{
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    
+}

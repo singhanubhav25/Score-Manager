@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <title></title>
+</head>
+
+<body>
+        <div id="headersection">
+            <h1 id="heading">
+                <div id="runs"><span id="result" class="boxText">0</span></div>
+                <div class="slash">/</div>
+                <div id="wicket"><span class="wicketText">0</span></div>
+            </h1>
+            <h3 id="subheading">
+                <div class="over">overs</div>
+                <div id="overmark"><span class="overRate">(0.0)</span></div>
+            </h3>
+        </div>
+
+
+        <div id="controlsection">
+            <div class="over">This over</div>
+            <div class="border">
+                <div class="box">
+                    <div class="ball"><span class="balln"></span></div>
+                    <div class="ball"><span class="balln"></span></div>
+                    <div class="ball"><span class="balln"></span></div>
+                    <div class="ball"><span class="balln"></span></div>
+                    <div class="ball"><span class="balln"></span></div>
+                    <div class="ball"><span class="balln"></span></div>
+                </div>
+                <div class="box">
+                    <div class="ballno">1st ball</div>
+                    <div class="ballno">2nd ball</div>
+                    <div class="ballno">3rd ball</div>
+                    <div class="ballno">4th ball</div>
+                    <div class="ballno">5th ball</div>
+                    <div class="ballno">6th ball</div>
+                </div>
+            </div>
+            <div class="indicate">
+                <div class="run">run scored</div>
+                <div class="arrow">&darr;</div>
+            </div>
+
+            <div id="shadedbox">
+                <button class="button" id="btn0" value="0" data-index="0">0</button>
+                <button class="button" id="btn1" value="1" style="background-color: gray;" data-index="1">1</button>
+                <button class="button" id="btn2" value="2" style="background-color: gray;" data-index="2">2</button>
+                <button class="button" id="btn3" value="3" style="background-color: gray;" data-index="3">3</button>
+                <button class="button" id="btn4" value="4" style="background-color: rgb(8, 181, 118);" data-index="4">4</button>
+                <button class="button" id="btn6" value="6" style="background-color: rgb(18, 132, 90);" data-index="6">6</button>
+                <button class="button" id="btnout" value="out" style="background-color: rgb(207, 2, 2);" data-index="out">out</button>
+            </div>
+
+        </div>
+
+        <div id="overlisting">
+            <div class="list">Over Listings</div>
+            <div class="line">
+                <div class="overs">Overs</div>
+                <div class="runName">Runs</div>
+            </div>
+
+            <div id="show">
+                <div class="overno">1</div>
+                <div class="history">
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                </div>
+            </div>
+
+            <div id="show">
+                <div class="overno">2</div>
+                <div class="history">
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                </div>
+            </div>
+
+            <div id="show">
+                <div class="overno">3</div>
+                <div class="history">
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                </div>
+            </div>
+
+            <div id="show">
+                <div class="overno">4</div>
+                <div class="history">
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                </div>
+            </div>
+
+            <div id="show">
+                <div class="overno">5</div>
+                <div class="history">
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                    <div class="ballh"><span class="ballb"></span></div>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="admin.js"></script>
+</body>
+
+</html>
